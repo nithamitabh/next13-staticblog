@@ -1,3 +1,4 @@
+import Link from "next/link"
 export default function RootLayout({
   children,
 }: {
@@ -6,7 +7,7 @@ export default function RootLayout({
   const header = (
     <header>
       <div>
-        <h1>Welcome to Ethereum Blogs</h1>
+        <Link href="/"><h1>Welcome to Ethereum Blogs</h1></Link>
         <p>We learn about to create web3.0 app with Nextjs 👽</p>
         <br />
       </div>
